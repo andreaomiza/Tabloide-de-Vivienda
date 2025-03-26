@@ -14,7 +14,7 @@ async function cargarDatos() {
             const tr = document.createElement("tr");
             cols.forEach((col, index) => {
                 const td = document.createElement("td");
-                if (index === 8) { // Índice de la columna de enlaces de Facebook
+                if (index === 1) { // Índice de la columna de enlaces de Facebook
                     const a = document.createElement("a");
                     a.href = col.trim();
                     a.target = "_blank";
